@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> DMI Headquarters Africa</h1>
+<ul>
+    {% for x in myaffiliates %}
+    <li><a>{{ x.firstname}} {{ x.lastname }}</a>></li>
+    {% endfor %}
+</ul>
+<p>Welcome to the Department of Management of ITs</p>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{% extends "master.html" %}
+{% block title %} 
+    <h1> Details about{{ myaffiliate.firstname }} {{myaffiliate.lastname }}</h1>
+{% endfor %}
+{% block content %}
+    <p>Phone: {{ myaffiliate.phone }}</p>
+    <p>Member since: {{ myaffiliate.joined_date }}</p>
+
+    <p>Back to <a href="/Bureau">Affiliates</a></p>
+{% endblock %}
